@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorBack"
+    tools:context=".DetailActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/toolbar"/>
+    </android.support.design.widget.AppBarLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="5dp"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/detail_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="제목부분"/>
+
+
+        <TextView
+            android:id="@+id/detail_user_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="작성자 .. 날짜"
+            android:gravity="right"
+            android:layout_marginRight="10dp"/>
+
+        <TextView
+            android:id="@+id/detail_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="내용부분"
+            android:layout_marginTop="10dp"
+            android:padding="15dp"/>
+
+        <LinearLayout
+            android:id="@+id/llHeart"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:gravity="center_vertical|right"
+            android:layout_gravity="right"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginRight="5dp"
+                android:src="@drawable/ic_favorite_black_24dp" />
+
+            <TextView
+                android:id="@+id/itemCount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="123" />
+
+
+        </LinearLayout>
+
+        <include
+            layout="@layout/contents_reply"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>

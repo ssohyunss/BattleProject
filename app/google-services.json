@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "70093131844",
+    "firebase_url": "https://agmbattleproject.firebaseio.com",
+    "project_id": "agmbattleproject",
+    "storage_bucket": "agmbattleproject.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:70093131844:android:078a951f0a7b9270",
+        "android_client_info": {
+          "package_name": "com.example.sohyun.battleproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "70093131844-en3e4lumojt76pbp1osepfes2oape2op.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDTTHXFtK8DfbOBG1DQ9bOFCUPxW_z_tvM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
